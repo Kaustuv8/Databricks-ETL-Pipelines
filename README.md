@@ -7,6 +7,8 @@ Before proceeding, ensure you have the following tools installed:
 - Azure CLI (az) – Used to interact with Azure services and manage resources.
 - Terraform – Infrastructure as Code (IaC) tool for provisioning Azure resources.
 
+📘 Follow the full setup instructions for [Windows environment setup](./setup-windows.md)
+
 📌 **Important Guidelines**
 Please read the instructions carefully before proceeding. Follow these guidelines to avoid mistakes:
 
