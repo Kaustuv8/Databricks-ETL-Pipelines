@@ -8,6 +8,7 @@ Before proceeding, ensure you have the following tools installed:
 - Terraform – Infrastructure as Code (IaC) tool for provisioning Azure resources.
 
 📘 Follow the full setup instructions for [Windows environment setup](./setup-windows.md)
+🍎 Follow the full setup instructions for [MacOS environment setup](./setup-macos.md)
 
 📌 **Important Guidelines**
 Please read the instructions carefully before proceeding. Follow these guidelines to avoid mistakes:
