@@ -64,16 +64,23 @@ In PowerShell, run the following command to check if the `docker` command is ava
 If you see the Docker version printed, everything is working correctly.
 Otherwise, please try restarting Rancher Desktop and check again.
 
-## Step 5: Install Spark using Python PIP
+## Step 5: Install Apache Spark
 
-Close and reopen your PowerShell window to refresh the environment.
-In PowerShell, run the following command to install spark:
+We recommend installing Apache Spark by following the official instructions, which provide multiple options depending on your system and requirements.
+
+- 📄 [Getting Started with PySpark – Manual Download Instructions](https://spark.apache.org/docs/latest/api/python/getting_started/install.html#manually-downloading)
+- 📦 [Apache Spark Downloads Page](https://spark.apache.org/downloads.html)
+
+For a visual walkthrough, check out our video tutorial:
+🎥 [Watch on YouTube](https://www.youtube.com/watch?v=FIXanNPvBXM)
+
+> ⚠️ **Note:** You are free to use any version or method of installation that works for your setup, but this project was tested with **Spark 3.5.\***.
+
+To install PySpark, please run the command in the PowerShell:
 
    ```powershell
     pip install pyspark
    ```
-
-⚠️  Note: Some packages like Spark  may require manual setup after install. Refer to the official documentation if you face issues.
 
 ✅ You’re All Set
 
